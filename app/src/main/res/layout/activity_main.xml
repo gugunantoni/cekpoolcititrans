@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    t=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:contex>
+
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="421dp"
+        android:layout_height="262dp"
+        app:srcCompat="@drawable/CQi6VthWgAAK_hN"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="114dp"
+        android:layout_height="30dp"
+        android:
+        android:background="#090909"
+        android:text="Selamat Datang"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:onClick="btnLocation"
+        android:id="@+id/button"
+        android:layout_width="139dp"
+        android:layout_height="54dp"
+        android:text="CEK  -  location"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/ic_dialog_map"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
