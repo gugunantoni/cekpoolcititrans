@@ -6,5 +6,23 @@
         <item>Jakarta Pusat</item>
         <item>Jakarta Barat</item>
     </string-array>
+
+    <string-array name="kecamatan_array">
+        <item>Cakung</item>
+        <item>Cilincing</item>
+        <item>Cilandak</item>
+        <item>Cempaka Putih</item>
+        <item>Cengkareng</item>
+    </string-array>
+
+    <string-array name="kelurahan_array">
+        <item>Cakung Barat</item>
+        <item>Cilincing</item>
+        <item>Cilandak Barat</item>
+        <item>Cempaka Putih Barat</item>
+        <item>Kapuk</item>
+    </string-array>
+
+
     <string name="app_name">cekpool</string>
 </resources>

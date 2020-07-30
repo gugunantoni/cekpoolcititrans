@@ -22,7 +22,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String CREATE_TABLE_LOKASI = "create table " + TABLE_LOKASI + "(" +
             KOTA + " TEXT, " +
             KECAMATAN + " TEXT, " +
-            KELUARAHAN + " REAL " +
+            KELUARAHAN + " TEXT " +
             ");";
 
     public DatabaseHelper(Context context) {

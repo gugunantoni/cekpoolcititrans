@@ -7,15 +7,17 @@
     android:background="@drawable/gradient_background"
     tools:context=".MainActivity">
 
+
     <ImageView
-        android:id="@+id/iklan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/pool"
+        android:layout_width="296dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/pool"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/iklan" />
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,11 +26,13 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
 
+
+
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CEK  -  location"
+            android:text="MULAI"
             android:layout_gravity="center"
             android:layout_marginBottom="100dp"/>
     </LinearLayout>

@@ -77,15 +77,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        // making spinner
-        spinner = (Spinner) findViewById(R.id.kota_spinner);
-        ArrayAdapter<CharSequence> staticAdapter = ArrayAdapter
-                .createFromResource(this, R.array.kota_array,
-                        android.R.layout.simple_spinner_item);
-        staticAdapter
-                .setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(staticAdapter);
-        String kota = spinner.getSelectedItem().toString();
+
+
+
 
 
         Button closeButton = (Button) findViewById(R.id.button);

@@ -8,6 +8,36 @@
 		"kota":"Cimahi",
 		"kecamatan":"cimahi tengah",
 		"kelurahan":"baros"
+	},
+
+	{
+		"kota":"Jakarta Timur",
+		"kecamatan":"Cakung",
+		"kelurahan":"Cakung Barat"
+	},
+
+	{
+		"kota":"Jakarta Utara",
+		"kecamatan":"Cilincing",
+		"kelurahan":"Cilincing"
+	},
+
+	{
+		"kota":"Jakarta Selatan",
+		"kecamatan":"Cilandak",
+		"kelurahan":"Cilandak Barat"
+	},
+
+	{
+		"kota":"Jakarta Pusat",
+		"kecamatan":"Cempaka Putih",
+		"kelurahan":"Cempaka Putih Barat"
+	},
+
+	{
+		"kota":"Jakarta Barat",
+		"kecamatan":"Cengkareng",
+		"kelurahan":"Kapuk"
 	}
 
 ]
