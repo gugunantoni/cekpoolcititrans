@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="16dp"
+    android:background="@drawable/gradient_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/kota"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kota  "
+            android:ems="5"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/kota_spinner"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/kota"
+            android:ems="10"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:background="@android:color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/kecamatan"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kecamatan"
+            android:ems="5"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal">
+        </TextView>
+        <TextView
+            android:id="@+id/kecamatan_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/kecamatan"
+            android:ems="10"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/kelurahan"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kelurahan"
+            android:ems="5"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal">
+        </TextView>
+        <TextView
+            android:id="@+id/kelurahan_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/kelurahan"
+            android:ems="10"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal">
+        </TextView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="CEL"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="15dp"/>
+
+
+</LinearLayout>

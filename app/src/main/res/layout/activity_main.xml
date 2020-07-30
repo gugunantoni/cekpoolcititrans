@@ -2,48 +2,37 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    t=".MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background"
-    tools:contex>
-
-
+    tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="421dp"
-        android:layout_height="262dp"
-        app:srcCompat="@drawable/CQi6VthWgAAK_hN"
-        tools:layout_editor_absoluteX="-5dp"
-        tools:layout_editor_absoluteY="111dp" />
+        android:id="@+id/iklan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/iklan" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="114dp"
-        android:layout_height="30dp"
-        android:
-        android:background="#090909"
-        android:text="Selamat Datang"
-        android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="72dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
 
-    <Button
-        android:onClick="btnLocation"
-        android:id="@+id/button"
-        android:layout_width="139dp"
-        android:layout_height="54dp"
-        android:text="CEK  -  location"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="615dp" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="83dp"
-        android:layout_height="50dp"
-        app:srcCompat="@android:drawable/ic_dialog_map"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="615dp" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CEK  -  location"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"/>
+    </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
