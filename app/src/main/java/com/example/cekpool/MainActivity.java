@@ -2,19 +2,11 @@ package com.example.cekpool;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.ContentValues;
-import android.content.Context;
 import android.content.Intent;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemSelectedListener;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.Spinner;
-import android.widget.Toast;
+
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -23,18 +15,10 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 
-import static android.app.PendingIntent.getActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     private DBManager dbManager;
-    private Spinner spinner;
-    private DatabaseHelper dbHelper;
-
-    private Context context;
-
-    private SQLiteDatabase database;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,20 +52,6 @@ public class MainActivity extends AppCompatActivity {
             ex.printStackTrace();
         }
 
-
-
-
-
-        // close database
-        //dbHelper.close();
-
-
-
-
-
-
-
-
         Button closeButton = (Button) findViewById(R.id.button);
         closeButton.setOnClickListener(new View.OnClickListener() {
 
@@ -96,8 +66,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
-
 
 
 }

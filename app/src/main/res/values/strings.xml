@@ -1,26 +1,28 @@
 <resources>
     <string-array name="kota_array">
+        <item>Pilih Kota</item>
         <item>Jakarta Timur</item>
-        <item>Jakarta Utara</item>
-        <item>Jakarta Selatan</item>
-        <item>Jakarta Pusat</item>
         <item>Jakarta Barat</item>
     </string-array>
 
     <string-array name="kecamatan_array">
-        <item>Cakung</item>
-        <item>Cilincing</item>
-        <item>Cilandak</item>
-        <item>Cempaka Putih</item>
-        <item>Cengkareng</item>
+        <item>Pilih Kecamatan</item>
+        <item>Cakung (Jaktim)</item>
+        <item>Ciracas (Jaktim)</item>
+        <item>Jatinegara (Jaktim)</item>
+        <item>Cengkareng (Jakbar)</item>
+        <item>Grogol Pertamburan (Jakbar)</item>
+        <item>Taman Sari (Jakbar)</item>
     </string-array>
 
     <string-array name="kelurahan_array">
-        <item>Cakung Barat</item>
-        <item>Cilincing</item>
-        <item>Cilandak Barat</item>
-        <item>Cempaka Putih Barat</item>
-        <item>Kapuk</item>
+        <item>Pilih Kelurahan</item>
+        <item>Cakung Barat - (cakung)</item>
+        <item>Rambutan - (ciracas)</item>
+        <item>Kampung Melayu - (jatinegara)</item>
+        <item>Kapuk - (cengkareng)</item>
+        <item>Grogol - (grogol pertambunan)</item>
+        <item>Glodok - (taman sari)</item>
     </string-array>
 
 
